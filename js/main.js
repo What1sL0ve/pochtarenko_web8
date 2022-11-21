@@ -82,6 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
             email.value = localStorage.getItem('Почта');
             msg.value = localStorage.getItem('Сообщение');
             cb.checked = false;
+            
           }
         },
         error: function (jqxhr, status, errorMsg) {
